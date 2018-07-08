@@ -1,0 +1,23 @@
+name = Panel
+description = Panel de control del sitio web.
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = fe_block
+dependencies[] = features
+dependencies[] = me
+dependencies[] = menu
+dependencies[] = page_manager
+dependencies[] = themekey
+dependencies[] = themekey_features
+features[ctools][] = page_manager:pages_default:1
+features[fe_block_settings][] = menu-menu-controles
+features[fe_block_settings][] = user-login
+features[features_api][] = api:2
+features[menu_custom][] = menu-controles
+features[menu_links][] = menu-controles_cambiar-clave:user/me/edit
+features[menu_links][] = menu-controles_portada:<front>
+features[menu_links][] = menu-controles_salir:user/logout
+features[page_manager_pages][] = panel_de_control
+features[themekey_features_rule_chain][] = drupal:path = panel >>> panel

@@ -1,0 +1,132 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+#menu {
+  background: -webkit-linear-gradient(top, black ,rgba(000,0,0,0), rgba(000,0,0,0), rgba(000,0,0,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom, black ,rgba(000,0,0,0), rgba(000,0,0,0), rgba(000,0,0,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom, black ,rgba(000,0,0,0), rgba(000,0,0,0), rgba(000,0,0,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, black ,rgba(000,0,0,0), rgba(000,0,0,0), rgba(000,0,0,0)); /* Standard syntax (must be last) */
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+}
+
+p {
+	color: #fff;
+}
+
+a:link, a:visited {
+    color: #0062a0;
+    text-decoration: none;
+}
+
+li a.active {
+	color: #fff;
+}
+
+/* MENU */
+
+#zone-menu-wrapper {
+
+}
+
+#section-header {
+
+}
+
+/* MOVER A DEFAULT CSS */
+#zone-branding-wrapper {
+  height: 200px;
+}
+
+#zone-footer-wrapper {
+	background-image: url("images/pattern.png");
+	color: #fff;
+}
+
+#zone-footer {
+	padding: 30px 0;
+}
+
+/* ESTILOS DEL MENU PRINCIPAL */
+
+.navigation a {
+	color: #EA753B;
+	font-size: 55px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+nav.navigation {
+  text-align: center;
+}
+
+#zone-menu a {
+font-family: 'Yanone Kaffeesatz';
+font-weight: 300;
+}
+
+/* DEBUG */
+
+h2.block-title {
+	font-size: 15px;
+}
+
+.round img {
+	border-radius: 50%;
+	box-shadow: 0 1px 9px rgba(0, 0, 0, 0.25) inset;
+}
+
+#logo {
+	padding: 60px 0 0 0;
+	width: 250px;
+}
+
+img#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flexslider {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 4px solid #000;
+}
+
+
+.block-views {
+	padding: 20px 0;
+}
+
+#zone-postscript {
+	margin-top: 60px;
+}
+
+#region-postscript-first-inner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#region-postscript-third p {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.logo2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#zone-footer p {
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+}

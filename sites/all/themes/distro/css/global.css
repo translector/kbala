@@ -1,0 +1,690 @@
+/* THIS FILE WILL HOLD STYLES FOR THE MOBILE VERSION OF YOUR WEBSITE (MOBILE FIRST). */
+/* THIS ALSO CAN INCLUDE ANY GLOBAL CSS THAT APPLIES SITE-WIDE. UNLESS OVERWRITTEN BY A MORE SPECIFIC STYLE RULE, CSS DECLARATIONS IN GLOBAL.CSS WILL APPLY SITE-WIDE. */
+@import url('sections.css');
+
+/* ================================
+   ADD GENERAL SITE STYLING HERE FOR TYPOGRAPHY AND BACKGROUND
+   More information
+   ================================ */
+
+body {
+  background: #fff none repeat scroll 0 0;
+  font-family: 'Lucida Grande',sans-serif,Verdana;
+  font-size: 75%;/*ALSO SET IN FUSION_STARTER.INFO: SETTINGS[BASE-FONT-SIZE] = FONT-SIZE-12 */
+}
+
+.banner {
+  float: right;
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+  margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 320%;
+  line-height: 120%;
+}
+h2 {
+  font-size: 280%;
+  line-height: 120%;
+  margin-top: 5px;
+}
+
+h3 { font-size: 180%; }
+
+h4 { font-size: 150%; }
+
+h5 { font-size: 120%; }
+
+h6 { font-size: 105%; }
+
+code {
+  background-color: #eee;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+blockquote {
+  color: #bd4478;
+  border-left: 3px solid;
+  border-color: #e0edf3;
+  font-style: italic;
+  margin-left: 10px;
+  padding-left: 4px;
+}
+
+p {
+  font-size: 100%;
+  line-height: 1.6em;
+  margin-bottom: 10px;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+/* ================================
+  SERVICIOS
+   More information
+   ================================ */
+
+h2.servicios {
+  color: #ddd;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+h3.servicios {
+  color: #ea753b;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.servicios ul li {
+  color: #fff;
+}
+
+p.servicios  {
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 1em;
+  font-weight: 800;
+}
+
+p.subtitulo {
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0 100px 50px 100px;
+  text-align: center;
+}
+
+img#servicios {
+  display: block;
+  margin: auto;
+}
+
+img.asesoria {
+  width:120px;
+}
+
+img.servicio {
+  width:100px;
+}
+
+img.desarrollo {
+  width:92px;
+}
+
+img.fondo {
+  width:250px;
+  padding: 0 0 30px 0;
+}
+/* ================================
+  NOSOTROS
+   More information
+   ================================ */
+#block-panels-mini-nosotros h2 {
+  color: #ea753b;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+#block-panels-mini-nosotros h3 {
+  color: #ddd;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+#block-panels-mini-nosotros p {
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 1.5em;
+
+
+}
+/* ================================
+  PROYECTOS
+   More information
+   ================================ */
+
+h2.proyectos {
+  color: #ea753b;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+h3.proyectos {
+  color: #ddd;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+p.proyectos  {
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 1em;
+  font-weight: 800;
+}
+
+
+/* ================================
+  CONTACTO
+   More information
+   ================================ */
+
+h2.contacto {
+  color: #ddd;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+h3.contacto {
+  color: #ddd;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.contacto p {
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 2em;
+  font-weight: 800;
+}
+
+div.contacto {
+  padding-left: 100px;
+}
+
+.contacto img {
+  width: 32px;
+  padding-right: 50px;
+}
+
+h2.block-title {
+  color: #ea753b;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+#logo {
+  margin-left: 50px;
+  margin-right: auto;
+  width: 80px;
+  float: none;
+  padding: 5px;
+  position: relative;
+  top:0;
+}
+
+div .logo-img {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+#fix {
+  height: 50px;
+}
+
+.site-name-slogan {
+  float: left;
+  padding: 0;
+}
+
+.site-name {
+  text-shadow: none;
+}
+
+.site-slogan {
+  color: #000;
+  text-align: center;
+  font-weight: 100; /* DO NOT DELETE - CROSS BROWSER OVERRIDE */
+}
+
+/* ================================
+   ENLACES
+   More information
+   ================================ */
+
+a,
+a:link,
+a:visited {
+  color: #EA753B;
+}
+
+.prensa a,
+.prensa a:link,
+.prensa a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* HOVER/ACTIVE LINK STYLES. DON'T FORGET :FOCUS FOR ACCESSIBILITY */
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ================================
+   MENU MOBILE VERSION 
+   More information
+   ================================ */
+#sidr-wrapper-0 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+}
+
+#sidr-0-button {
+  background: #000;
+  border: 1px;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 0 3px #000;
+}
+
+#sidr-0-button:hover {
+  background: #EF5029;
+  color: #fff;
+  box-shadow: 0 0 3px #EF5029;
+}
+
+
+/* ================================
+   TITULOS DE LAS PAGINAS 
+   More information
+   ================================ */
+
+h1.title {
+  line-height: 90%;
+  margin-bottom: 15px;
+  font: 40px/1.6em;
+}
+
+h2.node-title {
+  font-size: 350%;
+}
+
+h2.node-title a {
+  text-decoration:none;
+}
+
+h2.node-title a:hover {
+  color:#F39327;
+}
+
+body.full-node h1.title {
+  border-bottom: 4px solid #30393D;
+  float: left;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  width: 70%;
+}
+
+#first-time { /* HIDES FRONT PAGE MESSAGE - ADD NEW C0NTENT */
+  display: none;
+}
+
+.content {
+  padding: 5px 10px 10px 10px;
+  margin-bottom: 1px;
+}
+
+#node-panel-13, .content {
+  padding: 0;
+}
+
+label {
+  color: #fff;
+}
+
+
+/* ================================
+   HACK PARA LA SECCION QUIENES SOMOS CAPTION DE LA FOTO 
+   More information
+   ================================ */
+.views-field-field-texto-lateral-pagina h3{
+  margin-bottom: 0;
+}
+
+/* ================================
+   MAIN MENU
+   More information
+   ================================ */
+
+#region-menu {
+
+}
+
+#region-menu ul li.leaf {
+  font-size: 19px;
+  list-style-image: none;
+  list-style-type:none;
+  padding: 10px 10px 10px 10px;
+  margin: 0 5px 0 0;
+}
+
+#region-menu ul li {
+  float: left; /*important*/
+}
+
+#region-menu ul li:hover {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+/* ================================
+   RESERVAS RELATED STUFF
+   More information
+   ================================ */
+
+.form-item .description {
+  display: none;
+}
+
+.container-inline-date .date-padding {
+  padding: 0;
+}
+
+#reservas-entityform-edit-form label {
+  font-weight: normal;
+}
+
+#reservas-entityform-edit-form input {
+
+}
+
+/* ================================
+   TABLES
+   More information
+   ================================ */
+table {
+  border: none;
+  width: 100%;
+}
+
+tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
+  background: transparent;
+}
+
+td {
+  vertical-align:top;
+}
+
+/* ================================
+   ESTILOS PARTICULARES DE LA PAGINA DE INICIO
+   More information
+   ================================ */
+
+.mensaje {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 0 0 10px 0;
+}
+
+
+/* BOTON DE LA PAGINA DE INICIO */
+
+.boton {
+  background: #FF1618;
+  float: right;
+  padding: 1px 19px 8px 19px;
+}
+
+.boton:hover {
+  background: #000;
+}
+
+.boton a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.boton a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.boton a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* BOTON DE LA PAGINA DE INICIO */
+
+.boton1 {
+  background: #FF1618;
+  float: right;
+  padding: 4px 16px 4px 16px;
+}
+
+.boton1:hover {
+  background: #000;
+}
+
+.boton1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.boton1 a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.boton1 a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ================================
+   ESTILOS PARTICULARES DE LA GALERIA
+   ================================ */
+
+.view-portada .views-field-field-contenido {
+  padding: 20px 50px 10px 50px;
+}
+
+.flexslider {
+    background: transparent;
+    border: 4px transparent;
+    margin: 0;
+}
+
+.flex-control-nav {
+    bottom: 230px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+#texto {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: relative;
+  top: 55;
+  font-weight: 300;
+  font-size: 22px;
+  padding: 10px 0 10px 30px;
+}
+
+
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+  border: 1px solid;
+  border-color: #000;
+  color: #fff;
+  outline: 0;
+  padding: 4px 3px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  height: 2.8em;
+  *padding-top: 2px; /* IE7 */
+  *padding-bottom: 1px; /* IE7 */
+  *height: auto; /* IE7 */
+}
+
+textarea {
+  height: 150px;
+}
+
+.grippie {
+  visibility: hidden;
+}
+
+#mini-panel-kbala p {
+  font-size: 30px;
+  width: 60%;
+}
+
+
+/* ================================
+  PROYECTOS
+   More information
+   ================================ */
+
+.cajita img {
+  display: block;
+  margin: auto;
+}
+
+.cajita {
+  margin-bottom: 20px;
+}
+
+/* ================================
+  COLORBOX
+   More information
+   ================================ */
+
+
+#page-title {
+  color: #222;
+  text-align: center;
+}
+
+.caja p {
+  color: #222;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.caja {
+  background: #fff;
+}
+
+.caja img {
+  display: block;
+  margin: auto;
+}
+
+/* ================================
+  VITRINA
+   More information
+   ================================ */
+
+
+.vitrina {
+  background: rgba(54, 25, 25, .5);
+  position: relative;
+  bottom: 250px;
+  font-weight: 300;
+  font-size: 25px;
+  padding: 0 40px 0 100px;
+  margin-bottom: -250px;
+}
+
+.vitrina h2 {
+  color: #ddd;
+}
+
+.vitrina p {
+  color: #ddd;
+}
+
+.vitrina h5 {
+  text-align: right;
+}
+
+.region-footer-first-inner {
+
+}
+
+/** REDES SOCIALES **/
+
+.redessociales {
+  margin-top: 400px;
+  float: right;
+
+}
+
+.facebook {
+  width: 60px;
+}
+
+.twitter {
+  width: 60px;
+}
+
+.youtube {
+  width: 60px;
+}
+
+.instagram {
+  width: 60px;
+}
+
+.gplus {
+  width: 60px;
+}

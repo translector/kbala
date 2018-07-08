@@ -1,0 +1,75 @@
+@import url('panel.css');
+
+body {
+  background:transparent url(images/bg.png) repeat fixed 0 0;
+  color: #5E6568;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+#zone-branding-wrapper {
+  margin-top: 20px;	
+}
+
+#zone-content {
+  background: #fff;
+  padding: 30px 20px;	
+}
+
+#zone-footer-wrapper {
+  margin: 10px 0 0 0;
+  padding: 30px;
+}
+
+/* OVERRIDE PARA LAS ETIQUETAS DEL FORMULARIO DE INICIO DE SESION */
+label { 
+  font-weight: normal;
+}
+
+
+/* ================================
+   Menu cerrar sesion
+   VERSION MOBILE
+   ================================ */
+
+.pane-menu-menu-controles {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.pane-menu-menu-controles ul li.leaf {
+  font-size: 11px;
+  list-style-image: none;
+  list-style-type: none;
+  padding: 10px 4px 10px 4px;
+  margin: 0 2px 0 0;
+}
+
+#block-menu-menu-controles {
+    padding: 10px;
+}
+
+
+#block-menu-menu-controles ul li {
+  background: silver;
+  float: left; /*important*/
+  list-style: outside none none;
+}
+
+#block-menu-menu-controles ul li:hover {
+  background: red;
+}
+
+.pane-menu-menu-controles a {
+  color: #fff;
+  padding: 10px 20px 5px 20px ;
+  text-decoration: none;
+}

@@ -1,0 +1,32 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+
+/* ================================
+   Menu cerrar sesion
+   More information
+   ================================ */
+
+#region-menu {
+  padding: 0;
+}
+
+#region-menu ul li.leaf {
+  font-size: 13px;
+  padding: 10px 10px 10px 10px;
+  margin: 0 5px 0 0;
+}
+
+#region-menu ul li {
+  background: silver;
+  float: left; /*important*/
+}
+
+#region-menu ul li:hover {
+  background: red;
+}
+
+#region-menu a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}

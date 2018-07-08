@@ -1,0 +1,21 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+
+/* ================================
+   TELEFONO
+   Overrides position of the .fono class in wide screens.-
+   ================================ */
+
+div .fono {
+  float: right;
+  margin-bottom: 0;
+  padding: 0 16px 10px 16px;
+}
+
+
+.pane-node-field-descripcion {
+	padding-left: 10px;
+}

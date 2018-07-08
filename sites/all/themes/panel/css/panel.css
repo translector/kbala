@@ -1,0 +1,52 @@
+/* ================================
+   ESTILOS PANEL DE CONTROL
+   More information
+   ================================ */    
+
+p {
+  margin-bottom: 2px;
+}
+
+
+/* ================================
+   LOGIN FORM
+   More information
+   ================================ */
+
+.pane-user-login {
+  background: #eeeeee;
+  border-color: #EEEEEE;
+  border-style: solid;
+  border-width: 4px;
+  display: block;
+  height: 250px;
+  padding: 10px 10px 10px 35px;
+}
+
+.pane-user-login #edit-name {
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  padding: 5px;
+  width: 95%;
+}
+
+.pane-user-login #edit-pass {
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  padding: 5px;
+  width: 95%;
+}
+
+/** Overrides to make list behave normal */
+
+.pane-user-login .item-list {
+  display: inline-block;
+}
+
+.pane-user-login .item-list ul li {
+  margin: 0;
+}
